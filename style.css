@@ -55,7 +55,6 @@ article {
     margin-right: 20px;
 }
 
-
 code {
     color: white;
     font-family: monospace;
@@ -87,7 +86,10 @@ footer {
     min-height: 280px;
 }
 
-/* add to notes */
 section:hover h2, section:hover {
     box-shadow: 0 0 20px rgb(152, 195, 226);
+}
+
+code:active {
+    user-select: all;
 }
